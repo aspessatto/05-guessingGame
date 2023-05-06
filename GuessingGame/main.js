@@ -35,6 +35,7 @@ function handleBackClick () {
   toggleScreen()
   document.querySelector('#error').classList.add('errorhide')
   xAttempts = 1
+  randomNumber = Math.round(Math.random() * 10)
 }
 
 function toggleScreen () {
